@@ -1,27 +1,45 @@
-@import url(https://fonts.googleapis.com/css?family=Italianno);
+@import url(https://fonts.googleapis.com/css?family=Italianno&effect=outline);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
 
 .container-fluid{
     height:100%;
     width: 100%;  
 }
-body{
 
+body{
+font-family: 'Poiret One', cursive;
+}
 	
 }
+
+
+  .pin-top {
+    position: relative;
+  }
+
+
 /* Banner + Logo + Title */
-.nav-wrapper{
-	background-color:c9c9c9;
+nav{
+        
+        
+    }
+
+#Snav {
+    margin-top: 60px;
 }
 .Banner{
     position: relative;
 	width:100%;
 	height:100%;
     background-color:c9c9c9;
+    border-bottom: 5px solid;
+    border-top: 5px solid;
+	border-color: 333333;
 }
 .Title{
 	margin-left: 4%;
 	margin-right:0;
-	padding:0;
+	padding-right:0;
 	text-align: center;
 	vertical-align: center;
 	float:left;
@@ -30,16 +48,15 @@ body{
 	margin-left: 2%;
 	float:left;
 	height:100%;
+	margin-bottom: 20%;
+
 }
-.hide-on-med-and-down{
-	height:100%;
-	margin:0;
-}
+
 .titletext.hide-on-med-and-up{
 	margin-left:4%;
 	padding-right:0;
 	margin-right:0;
-	margin-top:2%;
+	margin-top:0%;
 	font-family: 'Italianno', cursive;
 	font-size: 38px;
 	width:100%;
@@ -49,52 +66,80 @@ body{
 	padding:0;
 	margin:0;
 	font-family: 'Italianno', cursive;
-	font-size: 72px;
+	font-size: 70px;
 }
 .right.button-collapse{
 	padding-left: 0;
 	margin-left: 0;
 }
-.nav-title{
-	float:left;
-	height:100%;
-}
+
 
 /* End Nav - Banner - Title */
 
 /*  Jumbo picture */
 
-.BigPicture{
+#BigPicture{
 
 width:100%;
 margin:0;
 padding:0;
 }
+#floatingtext{
+
+	position: inherit;
+	margin-top: 4%;
+	border-right: 5px solid;
+	border-top: 5px solid;
+	border-bottom: 5px solid;
+	border-color: 333333;
+ 	width: 30%;
+    background-color: c9c9c9;
+
+}
+.welcometitle{
+font-size: 72px;
+font-weight: bold;
+}
+.welcometext{
+	font-size: 26px;
+	font-weight: bold;
+}
 
 /* End Jumbo */
+
 /*Dog Walking section*/
-#Dog1{
+#Dog1,#Dog2{
 
 	padding:0;
 	margin:0;
 	background-color:393939;
+
 }
 .DogWalkinginfo{
 	padding:0;
 	margin:0;
 	background-color:c9c9c9;
-}
-.Dog1Text{
-padding:0;
-margin:0;
-font-size: 48px;
-font-weight: bold;
-font-family: 'Italianno', cursive;
+	font-size: 2vmax;
+	font-weight: bold;
+	font-family: 'Poiret One', cursive;
 
 }
-
-.Dogwalking,.info{
-	padding: 0;
-	margin:0;
+#DogWalkingBookmark{
+	width: 100%;
+	background-color:c9c9c9;
+}
+.Dogwalking{
+	background-color:393939;
+	padding-top:2%;
+	margin-left: 1%;
+	margin-right: 1%;
+	font-size: 80px;
+}
+.DogwalkingEnd{
+	background-color:393939;
+	padding-top:2%;
+	padding-bottom:2%;
+	margin-left: 1%;
+	margin-right: 1%;
 	font-size: 80px;
 }
