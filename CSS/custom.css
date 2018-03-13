@@ -1,0 +1,83 @@
+@import url(https://fonts.googleapis.com/css?family=Italianno);
+
+.container-fluid{
+    height:100%;
+    width: 100%;  
+}
+.nav-wrapper{
+	background-color:c9c9c9;
+}
+.Banner{
+    position: relative;
+	width:100%;
+	height:100%;
+    background-color:c9c9c9;
+}
+.Title{
+	margin-left: 1%;
+	margin-right:0;
+	padding:0;
+	text-align: center;
+	vertical-align: center;
+	float:left;
+}
+.Logo{	
+	margin-left: 2%;
+	float:left;
+	height:100%;
+}
+.hide-on-med-and-down{
+	height:100%;
+	margin:0;
+}
+.titletext.hide-on-med-and-up{
+	margin-left:4%;
+	padding-right:0;
+	margin-right:0;
+	margin-top:2%;
+	font-family: 'Italianno', cursive;
+	font-size: 26px;
+}
+.titletext.hide-on-small-and-down{
+	
+	padding:0;
+	margin:0;
+	font-family: 'Italianno', cursive;
+	font-size: 72px;
+}
+.right.button-collapse{
+
+	padding-left: 0;
+	margin-left: 0;
+}
+.nav-title{
+	float:left;
+	height:100%;
+}
+.Logo{	
+	float:left;
+	height:100%;
+}
+.dropdown{
+	float:left;
+	width:100%;
+}
+.Dogwalking,.info{
+	padding-top: 0;
+	border: 5px solid red;
+    padding: 10px;
+    margin-top: 1%;
+    font-size: 80px;
+}
+h1{
+	text-align:center;
+}
+h2{
+	text-align:center;
+}
+input{
+    width: 100%
+}
+.input-field.inline{
+    width: 100%
+}
