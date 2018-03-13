@@ -4,6 +4,11 @@
     height:100%;
     width: 100%;  
 }
+body{
+
+	
+}
+/* Banner + Logo + Title */
 .nav-wrapper{
 	background-color:c9c9c9;
 }
@@ -14,7 +19,7 @@
     background-color:c9c9c9;
 }
 .Title{
-	margin-left: 1%;
+	margin-left: 4%;
 	margin-right:0;
 	padding:0;
 	text-align: center;
@@ -36,7 +41,8 @@
 	margin-right:0;
 	margin-top:2%;
 	font-family: 'Italianno', cursive;
-	font-size: 26px;
+	font-size: 38px;
+	width:100%;
 }
 .titletext.hide-on-small-and-down{
 	
@@ -46,7 +52,6 @@
 	font-size: 72px;
 }
 .right.button-collapse{
-
 	padding-left: 0;
 	margin-left: 0;
 }
@@ -54,30 +59,33 @@
 	float:left;
 	height:100%;
 }
-.Logo{	
-	float:left;
-	height:100%;
+
+/* End Nav - Banner - Title */
+
+/*  Jumbo picture */
+
+.BigPicture{
+
+width:100%;
+margin:0;
+padding:0;
 }
-.dropdown{
-	float:left;
-	width:100%;
+
+/* End Jumbo */
+/*Dog Walking section*/
+
+.Dog1Text{
+
+font-size: 48px;
+font-weight: bold;
+font-family: 'Italianno', cursive;
+
 }
+
 .Dogwalking,.info{
 	padding-top: 0;
 	border: 5px solid red;
     padding: 10px;
     margin-top: 1%;
     font-size: 80px;
-}
-h1{
-	text-align:center;
-}
-h2{
-	text-align:center;
-}
-input{
-    width: 100%
-}
-.input-field.inline{
-    width: 100%
 }

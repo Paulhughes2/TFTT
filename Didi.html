@@ -29,52 +29,106 @@
 </HEAD>
 <BODY>
 <div class = "container-fluid">
-  <div class="navbar-fixed">
-    <nav>
-      <div class="nav-wrapper">
-         <div class="nav-content">
-            <div class = "Banner">
-              <div class = "Logo">
-                <img src ="Images\ShibiFin.png" height = 100%>
-              </div>
-              <div class ="Title ">
-                <h1 class ="titletext hide-on-small-and-down"><b>Tails From the Trails</b></h1>
-                <h1 class ="titletext hide-on-med-and-up"><b>Tails From the Trails</b></h1>
-              </div>
-              <a data-activates="Snav" class="right button-collapse"><i class="material-icons">menu</i></a>
-              <ul class="right hide-on-med-and-down">
-                <li><a href="##">Dog Walking</a></li>
-                <li><a href="##">About Me</a></li>
-                <li><a href="##">What I Offer</a></li>
-              </ul>
-            </div>
-          </div> 
-      </div>
-    </nav>
-  </div>
-  <ul class="side-nav" id="Snav">
-    <li><a href="##">Dog Walking</a></li>
-    <li><a href="##">About Me</a></li>
-    <li><a href="##">What I Offer</a></li>
-  </ul>
-	
-  <!--<div class = "Banner">
-		<div class = "Logo">
-			<img src ="Images\ShibiFin.png" height = 100%>
-		</div>
-		<div class ="Title">
-			<h1 class ="titletext"><b>Tails From the Trails<b></h1>
-		</div>
-	</div>-->
+	<div class = "BigPicture">
+  		<div class="navbar-fixed">
+    		<nav>
+      			<div class="nav-wrapper">
+         			<div class="nav-content">
+            			<div class = "Banner">
+              				<div class = "Logo">
+                				<img src ="Images\ShibiFin.png" height = 100%>
+              				</div>
+              				<div class ="Title ">
+                				<h1 class ="titletext hide-on-small-and-down"><b>Tails From the Trails</b></h1>
+                				<h1 class ="titletext hide-on-med-and-up">Tails From the Trails</h1>
+              				</div>
+              				<a data-activates="Snav" class="right button-collapse"><i class="material-icons">menu</i></a>
+              				<ul class="right hide-on-med-and-down">
+                				<li><a class ="toscroll" href="#DogWalkingBookmark">Dog Walking</a></li>
+                				<script>
+                				$("a.toscroll").on('click',function(e) {
+    								var url = e.target.href;
+    								var hash = url.substring(url.indexOf("#")+1);
+    								$('html, body').animate({
+       								scrollTop: $('#'+hash).offset().top -70
+    								}, 500);
+    								return false;
+								});
+								</script>
+                				<li><a href="##">About Me</a></li>
+                				<li><a href="##">What I Offer</a></li>
+              				</ul>
+            			</div>
+          			</div> 
+      			</div>
+    		</nav>
+  		</div>
+    	<ul class="side-nav" id="Snav">
+    		<li><a href="##">Dog Walking</a></li>
+    		<li><a href="##">About Me</a></li>
+    		<li><a href="##">What I Offer</a></li>
+  		</ul>
+	  	<!--<img src="Images/placeholder1.jpg" width = "100%" >-->
+	  	<div id ="C1" class="carousel carousel-slider" width="100%">
+    				<a class="carousel-item "><img src="images/placeholder1.jpg" ></a>
+    				<a class="carousel-item "><img src="images/placeholder2.jpg"></a>
+    				<a class="carousel-item "><img src="images/placeholder3.jpg"></a>
+    				<a class="carousel-item "><img src="images/placeholder4.jpg"></a>
+  		</div>
+  	</div>
 		
-  <div class ="Dogwalking">
+  	<div id ="DogWalkingBookmark" class ="Dogwalking">
+		<div class="row valign-wrapper">
+        	<div class="col s2">
+            	<!-- Static Image
+            		<img src="images/test.jpg" alt="" class="circle responsive-img " height="100%">
+            	-->
+            	<div id ="C2" class="carousel carousel-slider circle">
+    				<a class="carousel-item circle"><img src="images/stock1.jpeg" width="100%" ></a>
+    				<a class="carousel-item circle"><img src="images/stock2.jpeg" width="100%"></a>
+    				<a class="carousel-item circle"><img src="images/stock3.jpg" width="100%"></a>
+    				<a class="carousel-item circle"><img src="images/stock4.jpg" width="100%"></a>
+  				</div>
+  				<script>
+  					$('#C1').carousel({fullWidth: true});  
+  					autoplay1()   
+					function autoplay1() {
+    				$('#C1').carousel('next');
+    				setTimeout(autoplay1, 8500);	
+    				}
+  					$('#C2').carousel({fullWidth: true});  
+  					autoplay2()   
+					function autoplay2() {
+    				$('#C2').carousel('next');
+    				setTimeout(autoplay2, 5500);	
+    				}			
+  				</script>
+        	</div>
+        	<div class="col s10">
+            	<span class="Dog1Text">
+                	This is a cool carousel that is awesome and stuff and this is gonna be a cool box to put in picture of the silly animals and the walks that theywent on because of reasons and stuff and this is totally not dummy text to fill the gaps so i know what is going on and i have a placeholder to make it look like its real. I hate this font
+            	</span>
+            </div>
+    	</div>
+    </div>	
+    <!-- COPY FROM HERE -->
+    <div class ="Dogwalking">
+    	<div class="row valign-wrapper">
+        	<div class="col s10">
+            	<span class="Dog1Text">
+                	This is a cool koala Bear that is awesome and stuff and this is gonna be a cool box to put in picture of the silly animals and the walks that theywent on because of reasons and stuff and this is totally not dummy text to fill the gaps so i know what is going on and i have a placeholder to make it look like its real. I hate this font
+            	</span>
+            </div>
+            <div class="col s2">
+            	<img src="images/test.jpg" alt="" class="circle responsive-img " height="100%">
+        	</div>
+    	</div>
+	</div>
+	<!-- TO HERE TO ADD NEW DOG INFO BOX -->
+  	<div class ="Info">
 	
-  </div>
-
-  <div class ="Info">
-	
-	
-  </div>
+	</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+  	</div>
 </div>
 </BODY>
 </HTML>
