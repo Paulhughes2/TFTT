@@ -73,9 +73,20 @@ padding:0;
 
 /* End Jumbo */
 /*Dog Walking section*/
+#Dog1{
 
+	padding:0;
+	margin:0;
+	background-color:393939;
+}
+.DogWalkinginfo{
+	padding:0;
+	margin:0;
+	background-color:c9c9c9;
+}
 .Dog1Text{
-
+padding:0;
+margin:0;
 font-size: 48px;
 font-weight: bold;
 font-family: 'Italianno', cursive;
@@ -83,9 +94,7 @@ font-family: 'Italianno', cursive;
 }
 
 .Dogwalking,.info{
-	padding-top: 0;
-	border: 5px solid red;
-    padding: 10px;
-    margin-top: 1%;
-    font-size: 80px;
+	padding: 0;
+	margin:0;
+	font-size: 80px;
 }
