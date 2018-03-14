@@ -44,12 +44,12 @@ $('.pushpin').each(function() {
 </HEAD>
 <BODY>
 
-  <div id = "BigPicture">
+  
       <div class="navbar-fixed">
         <nav>
             <div class="nav-wrapper">
-              <div class="nav-content">
-                  <div class = "Banner">
+              	<div class="nav-content">
+                  	<div class = "Banner">
                       <div class = "Logo">
                         <img src ="Images\ShibiFin.png" height = 100%>
                       </div>
@@ -63,18 +63,20 @@ $('.pushpin').each(function() {
                         <script>
                           
                         $("a.toscroll").on('click',function(e) {
-                    var url = e.target.href;
-                    var hash = url.substring(url.indexOf("#")+1);
-                    $('html, body').animate({
-                      scrollTop: $('#'+hash).offset().top -70
-                    }, 500);
-                    return false;
-                });
-                </script>
+                    	var url = e.target.href;
+                    	var hash = url.substring(url.indexOf("#")+1);
+                    	$('html, body').animate({
+                      	scrollTop: $('#'+hash).offset().top -70
+                    	}, 500);
+                    	return false;
+                		});
+                		</script>
                         <li><a href="##">About Me</a></li>
                         <li><a href="##">What I Offer</a></li>
                       </ul>
                     </div>
+
+                    
                 </div> 
             </div>
         </nav>
@@ -86,19 +88,18 @@ $('.pushpin').each(function() {
         <li><a href="##">What I Offer</a></li>
       </ul>
     
-      
-      <!--<img src="Images/placeholder1.jpg" width = "100%" >-->
-        <div id ="C1" class="carousel carousel-slider" width="100%">
-          <div id = "floatingtext" class="carousel-fixed-item center">
+      <div id = "floatingtext" class="carousel-fixed-item center">
             <h1 class="welcometitle">Welcome</h1>
             <p class="welcometext"> Dog Walking & Pet Sitting  Services</p>
           </div>
+      <!--<img src="Images/placeholder1.jpg" width = "100%" >-->
+        <div id ="C1" class="carousel carousel-slider" width="100%">
+          
           <a class="carousel-item "><img src="images/placeholder1.jpg" > </a>
           <a class="carousel-item "><img src="images/placeholder2.jpg"></a>
           <a class="carousel-item "><img src="images/placeholder3.jpg"></a>
           <a class="carousel-item "><img src="images/placeholder4.jpg"></a> 
-        </div>
-      
+    
 
     <div id ="DogWalkingBookmark">
       &nbsp;
