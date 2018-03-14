@@ -1,6 +1,9 @@
-<HTML>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<link rel="stylesheet" type="text/css" href="CSS/custom.css">
+	<title>TTFT</title>
+
+
 <!--Import Google Icon Font-->
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
@@ -11,57 +14,51 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 
 <!-- Compiled and minified JavaScript -->
-<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 
 <script src="JS/JScript.js"></script>
-
+<link rel="stylesheet" type="text/css" href="CSS/custom.css">
 </head>
 <body>
 <div id="nav">
     <div class="navbar-fixed">
         <nav>
             <div class="nav-wrapper">
-              <div class="nav-content">
-                  <div class = "Banner">
-                      <div class = "Logo">
-                        <img src ="Images\ShibiFin.png" height = 100%>
-                      </div>
-                      <div class ="Title ">
-                        <h1 class ="titletext hide-on-small-and-down font-effect-outline">Tails From the Trails</h1>
-                        <h1 class ="titletext hide-on-med-and-up font-effect-outline">Tails From the Trails</h1>
-                      </div>
-                      <a data-activates="Snav" class="right button-collapse"><i class="material-icons">menu</i></a>
-                      <ul class="right hide-on-med-and-down">
-                        <li><a class ="toscroll" href="#DogWalkingBookmark">Dog Walking</a></li>
+            	<a href="#!" class="Logo "><img src ="Images\ShibiFin.png" height = 100%/></a> 
+
+              	<h1 class ="titletext hide-on-small-and-down font-effect-outline ">Tails From the Trails</h1>
+                <h1 class ="titletext hide-on-med-and-up font-effect-outline ">Tails From the Trails</h1>
+                
+                <a data-activates="Snav" class="right button-collapse"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+
+                    <li><a class="toscroll" href="#DogWalkingBookmark">Dog Walking</a></li>
+                    <script>
+                    	$("a.toscroll").on('click',function(e) {
+						var url = e.target.href;
+						var hash = url.substring(url.indexOf("#")+1);
+						$('html, body').animate({
+						scrollTop: $('#'+hash).offset().top -70
+						}, 500);
+						return false;
+						});
+                    </script>
+                        
+                    <li><a class ="toscroll" href="#AboutmeBookmark" >About Me</a></li>
                         <script>
-                          
-                        $("a.toscroll").on('click',function(e) {
-                    	var url = e.target.href;
-                    	var hash = url.substring(url.indexOf("#")+1);
-                    	$('html, body').animate({
-                      	scrollTop: $('#'+hash).offset().top -70
-                    	}, 500);
-                    	return false;
-                		});
-                		</script>
-                        <li><a class = "toscroll" href="#AboutmeBookmark">About Me</a></li>
-                         <script>
-                          
-                        $("a.toscroll").on('click',function(e) {
-                    	var url = e.target.href;
-                    	var hash = url.substring(url.indexOf("#")+1);
-                    	$('html, body').animate({
-                      	scrollTop: $('#'+hash).offset().top -70
-                    	}, 500);
-                    	return false;
-                		});
-                		</script>
-                        <li><a href="##">What I Offer</a></li>
-                      </ul>
-                    </div>
-                    
-                </div> 
+                    	$("a.toscroll").on('click',function(e) {
+						var url = e.target.href;
+						var hash = url.substring(url.indexOf("#")+1);
+						$('html, body').animate({
+						scrollTop: $('#'+hash).offset().top -70
+						}, 500);
+						return false;
+						});
+                    </script> 
+                    <li><a href="##">What I Offer</a></li>
+                </ul>                                     
+                
             </div>
         </nav>
       </div>
@@ -75,9 +72,9 @@
 <!-- main content -->
 <div id="push"></div>
 
-<section class="orange valign-wrapper">
+<section class="backing valign-wrapper">
     
-<img src="Images/placeholder1.jpg" width = "100%" >
+<img src="Images/placeholder1.jpg" width = "100%" />
 		<div id = "floatingtext" class ="hide-on-small-and-down">
             <h1 class="welcometitle">Welcome</h1>
             <p class="welcometext"> Dog Walking & Pet Sitting  Services</p>
@@ -102,7 +99,7 @@
 <div class="Dogwalkingwrap" id="main">
 	<div class ="Dogwalking">
     	<div class="row valign-wrapper">
-        	<div class="col s2">
+        	<div class="col s2 DogImg">
               <!--
                 <img src="images/test.jpg" alt="" class="circle responsive-img hide-on-large-only " height="100%">
               -->
@@ -121,7 +118,7 @@
         	    }     
             	</script>
         	</div>
-        	<div class="col s10 DogWalkinginfo">
+        	<div class="col s10 DogWalkinginfoO">
               
             	This is a cool carousel that is awesome and stuff and this is gonna be a cool box to put in picture of the silly animals and the walks that theywent on because of reasons and stuff and this is totally not dummy text to fill the gaps so i know what is going on and i have a placeholder to make it look like its real. I hate this font
               
@@ -130,11 +127,11 @@
 	</div>
     <div class ="Dogwalking">
         <div class=" row valign-wrapper">
-            <div class="col s10 DogWalkinginfo">
+            <div class="col s10 DogWalkinginfoE">
                 This is a cool koala Bear that is awesome and stuff and this is gonna be a cool box to put in picture of the silly animals and the walks that theywent on because of reasons and stuff and this is totally not dummy text to fill the gaps so i know what is going on and i have a placeholder to make it look like its real. I hate this font
             </div>
-            <div class="col s2">
-              <img src="images/test.jpg" alt="" class="circle responsive-img " height="100%">
+            <div class="col s2 DogImg">
+              <img src="images/test.jpg" alt="" class="circle responsive-img valign-wrapper " height="100%">
             </div>
         </div>      
     </div>
@@ -142,10 +139,10 @@
     
     <div class ="DogwalkingEnd">
         <div id = "Dog2" class="row valign-wrapper">
-        	<div class="col s2">
-              <img src="images/test.jpg" alt="" class="circle responsive-img " height="100%">
+        	<div class="col s2 DogImg">
+              <img src="images/test.jpg" alt="" class="circle responsive-img valign-wrapper" height="100%">
             </div>
-            <div class="col s10 DogWalkinginfo">
+            <div class="col s10 DogWalkinginfoO">
                 This is a cool koala Bear that is awesome and stuff and this is gonna be a cool box to put in picture of the silly animals and the walks that theywent on because of reasons and stuff and this is totally not dummy text to fill the gaps so i know what is going on and i have a placeholder to make it look like its real. I hate this font
             </div>
             
@@ -154,12 +151,12 @@
 <div id ="AboutmeBookmark">
       &nbsp;
 </div>
-<div class ="Aboutme">
+	<div class ="Aboutme">
         <div id = "Selfie" class="row valign-wrapper">
         	<div class="col s2">
               <img src="images/test.jpg" alt="" class="circle responsive-img " height="100%">
             </div>
-            <div class="col s10 about">
+            <div class="col s10 aboutinfo">
                 This is a cool koala Bear that is awesome and stuff and this is gonna be a cool box to put in picture of the silly animals and the walks that theywent on because of reasons and stuff and this is totally not dummy text to fill the gaps so i know what is going on and i have a placeholder to make it look like its real. I hate this font
             </div>
             
