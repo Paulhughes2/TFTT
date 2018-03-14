@@ -84,7 +84,7 @@ nav{
 	border-color: 333333;
 }
 .Title{
-	margin-left: 4%;
+	margin-left: 0;
 	margin-right:0;
 	padding-right:0;
 	text-align: center;
@@ -95,7 +95,7 @@ nav{
 	margin-left: 2%;
 	float:left;
 	height:100%;
-	margin-bottom: 20%;
+	
 
 }
 
@@ -133,35 +133,31 @@ padding:0;
 }
 #floatingtext{
 
-	position: inherit;
-	margin-top: 2%;
+	position: fixed;
+	margin-top: 0%;
+	padding:0;
 	border-right: 5px solid;
 	border-top: 5px solid;
 	border-bottom: 5px solid;
 	border-color: 333333;
- 	width: 30%;
+ 	width: 22%;
     background-color: c9c9c9;
 
 }
 .welcometitle{
-font-size: 72px;
+font-size: 4vw;
 font-weight: bold;
+padding-left: 10%;
 }
 .welcometext{
 	font-size: 26px;
 	font-weight: bold;
+	padding-left: 3%;
 }
 
 /* End Jumbo */
 
 /*Dog Walking section*/
-#Dog1,#Dog2{
-
-	padding:0;
-	margin:0;
-	background-color:393939;
-
-}
 .DogWalkinginfo{
 	padding:0;
 	margin:0;
@@ -173,21 +169,27 @@ font-weight: bold;
 }
 #DogWalkingBookmark{
 	width: 100%;
-	background-color:c9c9c9;
+}
+.Dog1Img{
+
+background-color:393939;
 }
 .Dogwalking{
 	background-color:393939;
 	padding-top:2%;
-	margin-left: 1%;
-	margin-right: 1%;
+	padding-bottom: 0%;
 	font-size: 80px;
 }
 .DogwalkingEnd{
 	background-color:393939;
 	padding-top:2%;
 	padding-bottom:2%;
-	margin-left: 1%;
-	margin-right: 1%;
+	
 	font-size: 80px;
 }
-
+.row.valign-wrapper{
+margin-bottom: 0;
+}
+#main{
+	background-color:c9c9c9;
+}

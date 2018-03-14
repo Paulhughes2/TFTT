@@ -47,22 +47,30 @@ $('#push,secton').pushpin({ top:$('#push').height() });
                         <script>
                           
                         $("a.toscroll").on('click',function(e) {
-                    var url = e.target.href;
-                    var hash = url.substring(url.indexOf("#")+1);
-                    $('html, body').animate({
-                      scrollTop: $('#'+hash).offset().top -70
-                    }, 500);
-                    return false;
-                });
-                </script>
-                        <li><a href="##">About Me</a></li>
+                    	var url = e.target.href;
+                    	var hash = url.substring(url.indexOf("#")+1);
+                    	$('html, body').animate({
+                      	scrollTop: $('#'+hash).offset().top -70
+                    	}, 500);
+                    	return false;
+                		});
+                		</script>
+                        <li><a class = "toscroll" href="#AboutmeBookmark">About Me</a></li>
+                         <script>
+                          
+                        $("a.toscroll").on('click',function(e) {
+                    	var url = e.target.href;
+                    	var hash = url.substring(url.indexOf("#")+1);
+                    	$('html, body').animate({
+                      	scrollTop: $('#'+hash).offset().top -70
+                    	}, 500);
+                    	return false;
+                		});
+                		</script>
                         <li><a href="##">What I Offer</a></li>
                       </ul>
                     </div>
-                    <div id = "floatingtext" class="carousel-fixed-item center">
-            <h1 class="welcometitle">Welcome</h1>
-            <p class="welcometext"> Dog Walking & Pet Sitting  Services</p>
-          </div>
+                    
                 </div> 
             </div>
         </nav>
@@ -79,55 +87,65 @@ $('#push,secton').pushpin({ top:$('#push').height() });
 
 <section class="orange valign-wrapper">
     
-        
+<img src="Images/placeholder1.jpg" width = "100%" >
+		<div id = "floatingtext" class ="hide-on-small-and-down">
+            <h1 class="welcometitle">Welcome</h1>
+            <p class="welcometext"> Dog Walking & Pet Sitting  Services</p>
+        </div>
+
+        <!--
                <div id ="C1" class="carousel carousel-slider" width="100%">
           
-          <a class="carousel-item "><img src="images/placeholder1.jpg" > </a>
+          <a class="carousel-item "><img src="images/placeholder1.jpg" >
+           </a>
           <a class="carousel-item "><img src="images/placeholder2.jpg"></a>
           <a class="carousel-item "><img src="images/placeholder3.jpg"></a>
           <a class="carousel-item "><img src="images/placeholder4.jpg"></a> 
         </div>
-        
+        -->
            
     
 </section>
-
-<div class="contaier" id="main">
-    <div id = "Dog1" class="row valign-wrapper hide-on-med-and-down">
-       
-        <div class="col s2 Dog1Img ">
+<div id ="DogWalkingBookmark">
+      &nbsp;
+</div>
+<div class="Dogwalkingwrap" id="main">
+	<div class ="Dogwalking">
+    	<div class="row valign-wrapper">
+        	<div class="col s2">
               <!--
                 <img src="images/test.jpg" alt="" class="circle responsive-img hide-on-large-only " height="100%">
               -->
-            <div id ="C2" class="carousel carousel-slider circle "><!-- hide-on-med-and-down -->
-                <a class="carousel-item circle"><img src="images/stock1.jpeg"  ></a>
-                <a class="carousel-item circle"><img src="images/stock2.jpeg" ></a>
-                <a class="carousel-item circle"><img src="images/stock3.jpg" ></a>
-                <a class="carousel-item circle"><img src="images/stock4.jpg" ></a>
-            </div>
-            <script>
-            $('#C1').carousel({fullWidth: true});  
-            autoplay1()   
-            function autoplay1() {
-            $('#C1').carousel('next');
-            setTimeout(autoplay1, 8500);  
-            }
-            $('#C2').carousel({fullWidth: true});  
-            autoplay2()   
-            function autoplay2() {
-            $('#C2').carousel('next');
-            setTimeout(autoplay2, 5500);  
-            }     
-            </script>
-        </div>
-        <div class="col s10 DogWalkinginfo">
+            	<div id ="C2" class="carousel carousel-slider circle "><!-- hide-on-med-and-down -->
+                	<a class="carousel-item circle"><img src="images/stock1.jpeg"  ></a>
+                	<a class="carousel-item circle"><img src="images/stock2.jpeg" ></a>
+                	<a class="carousel-item circle"><img src="images/stock3.jpg" ></a>
+                	<a class="carousel-item circle"><img src="images/stock4.jpg" ></a>
+            	</div>
+            	<script>
+            	$('#C1').carousel({fullWidth: true});  
+            	autoplay1()   
+            	function autoplay1() {
+        	    $('#C1').carousel('next');
+        	    setTimeout(autoplay1, 8500);  
+            	}
+        	    $('#C2').carousel({fullWidth: true});  
+        	    autoplay2()   
+        	    function autoplay2() {
+        	    $('#C2').carousel('next');
+        	    setTimeout(autoplay2, 5500);  
+        	    }     
+            	</script>
+        	</div>
+        	<div class="col s10 DogWalkinginfo">
               
-            This is a cool carousel that is awesome and stuff and this is gonna be a cool box to put in picture of the silly animals and the walks that theywent on because of reasons and stuff and this is totally not dummy text to fill the gaps so i know what is going on and i have a placeholder to make it look like its real. I hate this font
+            	This is a cool carousel that is awesome and stuff and this is gonna be a cool box to put in picture of the silly animals and the walks that theywent on because of reasons and stuff and this is totally not dummy text to fill the gaps so i know what is going on and i have a placeholder to make it look like its real. I hate this font
               
-        </div>
-    </div>
-    <div class ="DogwalkingEnd">
-        <div id = "Dog2" class="row valign-wrapper">
+        	</div>
+    	</div>
+	</div>
+    <div class ="Dogwalking">
+        <div class=" row valign-wrapper">
             <div class="col s10 DogWalkinginfo">
                 This is a cool koala Bear that is awesome and stuff and this is gonna be a cool box to put in picture of the silly animals and the walks that theywent on because of reasons and stuff and this is totally not dummy text to fill the gaps so i know what is going on and i have a placeholder to make it look like its real. I hate this font
             </div>
@@ -136,40 +154,39 @@ $('#push,secton').pushpin({ top:$('#push').height() });
             </div>
         </div>      
     </div>
+    
+    
     <div class ="DogwalkingEnd">
         <div id = "Dog2" class="row valign-wrapper">
+        	<div class="col s2">
+              <img src="images/test.jpg" alt="" class="circle responsive-img " height="100%">
+            </div>
             <div class="col s10 DogWalkinginfo">
                 This is a cool koala Bear that is awesome and stuff and this is gonna be a cool box to put in picture of the silly animals and the walks that theywent on because of reasons and stuff and this is totally not dummy text to fill the gaps so i know what is going on and i have a placeholder to make it look like its real. I hate this font
             </div>
-            <div class="col s2">
-              <img src="images/test.jpg" alt="" class="circle responsive-img " height="100%">
-            </div>
-        </div>      
-    </div>
-    <div class ="DogwalkingEnd">
-        <div id = "Dog2" class="row valign-wrapper">
-            <div class="col s10 DogWalkinginfo">
-                This is a cool koala Bear that is awesome and stuff and this is gonna be a cool box to put in picture of the silly animals and the walks that theywent on because of reasons and stuff and this is totally not dummy text to fill the gaps so i know what is going on and i have a placeholder to make it look like its real. I hate this font
-            </div>
-            <div class="col s2">
-              <img src="images/test.jpg" alt="" class="circle responsive-img " height="100%">
-            </div>
-        </div>      
-    </div>
-    <div class ="DogwalkingEnd">
-        <div id = "Dog2" class="row valign-wrapper">
-            <div class="col s10 DogWalkinginfo">
-                This is a cool koala Bear that is awesome and stuff and this is gonna be a cool box to put in picture of the silly animals and the walks that theywent on because of reasons and stuff and this is totally not dummy text to fill the gaps so i know what is going on and i have a placeholder to make it look like its real. I hate this font
-            </div>
-            <div class="col s2">
-              <img src="images/test.jpg" alt="" class="circle responsive-img " height="100%">
-            </div>
+            
         </div>      
     </div>    
+<div id ="AboutmeBookmark">
+      &nbsp;
+</div>
+<div class ="Aboutme">
+        <div id = "Selfie" class="row valign-wrapper">
+        	<div class="col s2">
+              <img src="images/test.jpg" alt="" class="circle responsive-img " height="100%">
+            </div>
+            <div class="col s10 about">
+                This is a cool koala Bear that is awesome and stuff and this is gonna be a cool box to put in picture of the silly animals and the walks that theywent on because of reasons and stuff and this is totally not dummy text to fill the gaps so i know what is going on and i have a placeholder to make it look like its real. I hate this font
+            </div>
+            
+        </div>      
+    </div>
+
+
+
+
+
 
 </div>
-
-<!--login modal-->
-
 </body>
 </html>
