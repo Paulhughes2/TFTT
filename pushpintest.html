@@ -34,31 +34,11 @@
                 <ul class="right hide-on-med-and-down">
 
                     <li><a class="toscroll" href="#DogWalkingBookmark">Dog Walking</a></li>
-                    <script>
-                    	$("a.toscroll").on('click',function(e) {
-						var url = e.target.href;
-						var hash = url.substring(url.indexOf("#")+1);
-						$('html, body').animate({
-						scrollTop: $('#'+hash).offset().top -70
-						}, 500);
-						return false;
-						});
-                    </script>
-                        
+                                            
                     <li><a class ="toscroll" href="#AboutmeBookmark" >About Me</a></li>
-                        <script>
-                    	$("a.toscroll").on('click',function(e) {
-						var url = e.target.href;
-						var hash = url.substring(url.indexOf("#")+1);
-						$('html, body').animate({
-						scrollTop: $('#'+hash).offset().top -70
-						}, 500);
-						return false;
-						});
-                    </script> 
-                    <li><a href="##">What I Offer</a></li>
+                       
+                    <li><a lass ="toscroll" href="#OfferBookmark">What I Offer</a></li>
                 </ul>                                     
-                
             </div>
         </nav>
       </div>
@@ -159,13 +139,118 @@
             <div class="col s10 aboutinfo">
                 This is a cool koala Bear that is awesome and stuff and this is gonna be a cool box to put in picture of the silly animals and the walks that theywent on because of reasons and stuff and this is totally not dummy text to fill the gaps so i know what is going on and i have a placeholder to make it look like its real. I hate this font
             </div>
-            
         </div>      
     </div>
+<div id ="OfferBookmark">
+      &nbsp;
+</div>
+    <div class="row">
+        <div class="col s12 m6 l4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="images/placeholder2.jpg">
+                </div>
+                <div class="card-content">
+                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                </div>
+                <div class="card-tabs">
+                    <ul class="tabs tabs-fixed-width">
+                        <li class="tab"><a class="active" href="#SBreeds">Small Breeds</a></li>
+                        <li class="tab"><a  href="#MBreeds">Medium Breeds</a></li>
+                        <li class="tab"><a href="#LBreeds">Large Breeds/a></li>
+                    </ul>
+                </div>
+                <div class="card-content grey lighten-4">
+                    <div id="SBreeds">Small Breeds</div>
+                    <div id="MBreeds">Medium Breeds</div>
+                    <div id="LBreeds">Large Breeds</div>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="images/placeholder3.jpg">
+                </div>
+                <div class="card-content">
+                    <p>I am a very simple card. I am good at containing small bits of information.
+                    I am convenient because I require little markup to use effectively.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="images/placeholder4.jpg">
+                </div>
+                <div class="card-content">
+                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                </div>
+                <div class="card-tabs">
+                    <ul class="tabs tabs-fixed-width">
+                        <li class="tab"><a class="active" href="#Reptile">Reptile</a></li>
+                        <li class="tab"><a  href="#Exotic">Exotic Pet</a></li>
+                        <li class="tab"><a href="#SPets">Small Pets</a></li>
+                    </ul>
+                </div>
+                <div class="card-content grey lighten-4">
+                    <div id="Reptile">Reptile</div>
+                    <div id="Exotic"><a class="modal-trigger" href="#modal1">Exotic Pets</a></div>
+                    <div id="SPets">Small Pets</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modal1" class="modal ">
+        <div class="modal-content">
+            <h4>Modal Header</h4>
+            <p>A bunch of text</p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">OK</a>
+        </div>
+    </div>
+    <script>
+        $('.modal').modal({
+            dismissible: true, // Modal can be dismissed by clicking outside of the modal
+            opacity: 0, // Opacity of modal background
+            inDuration: 300, // Transition in duration
+            outDuration: 200, // Transition out duration
+            startingTop: '4%', // Starting top style attribute
+            endingTop: '10%', // Ending top style attribute
+            ready: function(modal, trigger) { // Callback for Modal open. Modal and trigger parameters available.
+        
+            },
+            complete: function() {  } // Callback for Modal close
+            }
+        );
+    </script>
 
-
-
-
+    <footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Footer Content</h5>
+                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2018 TFTT
+            <a class="grey-text text-lighten-4 right" href="http://materializecss.com/">Created with materialize</a>
+            </div>
+          </div>
+        </footer>
 
 
 </div>

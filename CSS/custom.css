@@ -195,3 +195,26 @@ margin-bottom: 0;
 }
 
 /* End About */
+
+/* Offers */
+
+
+/* End Offers */
+
+/* Modal */
+
+/* End Modal */
+
+/* Footer*/
+.page-footer{
+	background-color: #333333;
+	position: relative;
+	width:100%;
+	background-color:c9c9c9;
+    border-bottom: 5px solid;
+    border-top: 5px solid;
+	border-color: #c9c9c9;
+	background-color: ;
+
+}
+/* End Footer */
