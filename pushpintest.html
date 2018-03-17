@@ -17,6 +17,15 @@
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 
+<!-- Google Maps 
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDHS6phPa41pkyovKkilZtwPH22PyimUQc&callback=initMap"
+  type="text/javascript"></script>
+-->
+<!-- Google capcha 
+
+<script src='https://www.google.com/recaptcha/api.js'></script>
+-->
 <script src="JS/JScript.js"></script>
 <link rel="stylesheet" type="text/css" href="CSS/custom.css">
 </head>
@@ -27,8 +36,7 @@
             <div class="nav-wrapper">
             	<a href="#!" class="Logo "><img src ="Images\ShibiFin.png" height = 100%/></a> 
 
-              	<h1 class ="titletext hide-on-small-and-down font-effect-outline ">Tails From the Trails</h1>
-                <h1 class ="titletext hide-on-med-and-up font-effect-outline ">Tails From the Trails</h1>
+              	
                 
                 <a data-activates="Snav" class="right button-collapse"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
@@ -38,15 +46,20 @@
                     <li><a class ="toscroll" href="#AboutmeBookmark">About Me</a></li>
                        
                     <li><a class ="toscroll" href="#OfferBookmark">What I Offer</a></li>
-                </ul>                                     
+                    
+                    <li><a class ="toscroll" href="#ContactBookmark">Contact Us</a></li>
+                </ul> 
+                <h1 class ="titletext hide-on-small-and-down font-effect-outline ">Tails From the Trails</h1>
+                <h1 class ="titletext hide-on-med-and-up font-effect-outline ">Tails From the Trails</h1>                                    
             </div>
         </nav>
     </div>
 </div>
     <ul id="Snav" class="side-nav" >
-        <li><a href="##">Dog Walking</a></li>
-        <li><a href="##">About Me</a></li>
-        <li><a href="##">What I Offer</a></li>
+        <li><a href="#DogWalkingBookmark">Dog Walking</a></li>
+        <li><a href="#AboutmeBookmark">About Me</a></li>
+        <li><a href="#OfferBookmark">What I Offer</a></li>
+        <li><a href="#ContactBookmark">Contact Us</a></li>
     </ul>
 
 <!-- main content -->
@@ -56,58 +69,39 @@
             <h1 class="welcometitle">Welcome</h1>
             <p class="welcometext"> Dog Walking & Pet Sitting  Services</p>
         </div>
-
-        <!--
-               <div id ="C1" class="carousel carousel-slider" width="100%">
-          
-          <a class="carousel-item "><img src="images/placeholder1.jpg" >
-           </a>
-          <a class="carousel-item "><img src="images/placeholder2.jpg"></a>
-          <a class="carousel-item "><img src="images/placeholder3.jpg"></a>
-          <a class="carousel-item "><img src="images/placeholder4.jpg"></a> 
-        </div>
-        -->
+        <div class="intro">
+        <p>Tails from the trails is a professional and reliable dog walking and pet sitting service that you can trust. I offer a tailored and bespoke service to suit your needs, whether it be a run in the hills or cuddles and company whilst you’re away. Every pet I see is treated like one of my own. Our services include; dog walking & sitting, cat sitting, small animal care and exotic animal care.
+ 
+		It is very important to me that your animals feel happy and safe and I will contact you giving you little updates, pictures and texts to let you know how your pet is getting on.
+		</p>
+		</div>
 </div>           
-    
+   
 
 <div id ="DogWalkingBookmark">
-      &nbsp;
+                
+
 </div>
-<div class="Dogwalkingwrap" id="main">
+
+
 	<div class ="Dogwalking">
     	<div class="row valign-wrapper">
-        	<div class="col s2 DogImg">
-              <!--
-                <img src="images/test.jpg" alt="" class="circle responsive-img hide-on-large-only " height="100%">
-              -->
-            	<div id ="C2" class="carousel carousel-slider circle "><!-- hide-on-med-and-down -->
-                	<a class="carousel-item circle"><img src="images/stock1.jpeg"  ></a>
-                	<a class="carousel-item circle"><img src="images/stock2.jpeg" ></a>
-                	<a class="carousel-item circle"><img src="images/stock3.jpg" ></a>
-                	<a class="carousel-item circle"><img src="images/stock4.jpg" ></a>
-            	</div>
-            	<script>
-            	$('#C2').carousel({fullWidth: true});  
-        	    autoplay2()   
-        	    function autoplay2() {
-        	    $('#C2').carousel('next');
-        	    setTimeout(autoplay2, 5500);  
-        	    }     
-            	</script>
-        	</div>
-        	<div class="col s10 DogWalkinginfoO">
+        	<div class="col s2 m2 l2 DogImg hide-on-small-only"> 
+                <img src="images/test.jpg" alt="" class="circle responsive-img valign-wrapper " height="100%">
+           	</div>
+        	<div class="col s12 m10 l10 DogWalkinginfoO">
               
-            	This is a cool carousel that is awesome and stuff and this is gonna be a cool box to put in picture of the silly animals and the walks that theywent on because of reasons and stuff and this is totally not dummy text to fill the gaps so i know what is going on and i have a placeholder to make it look like its real. I hate this font
-              
+            	This is a cool koala Bear that is awesome and stuff and this is gonna be a cool box to put in picture of the silly animals and the walks that theywent on because of reasons and stuff and this is totally not dummy text to fill the gaps so i know what is going on and i have a placeholder to make it look like its real. I hate this font
+
         	</div>
     	</div>
 	</div>
     <div class ="Dogwalking">
         <div class=" row valign-wrapper">
-            <div class="col s10 DogWalkinginfoE">
+            <div class="col s12 m10 l10 DogWalkinginfoE">
                 This is a cool koala Bear that is awesome and stuff and this is gonna be a cool box to put in picture of the silly animals and the walks that theywent on because of reasons and stuff and this is totally not dummy text to fill the gaps so i know what is going on and i have a placeholder to make it look like its real. I hate this font
             </div>
-            <div class="col s2 DogImg">
+            <div class="col s2 DogImg hide-on-small-only">
               <img src="images/test.jpg" alt="" class="circle responsive-img valign-wrapper " height="100%">
             </div>
         </div>      
@@ -115,11 +109,11 @@
     
     
     <div class ="DogwalkingEnd">
-        <div id = "Dog2" class="row valign-wrapper">
-        	<div class="col s2 DogImg">
+        <div class="row valign-wrapper">
+        	<div class="col s2 m2 l2 DogImg hide-on-small-only">
               <img src="images/test.jpg" alt="" class="circle responsive-img valign-wrapper" height="100%">
             </div>
-            <div class="col s10 DogWalkinginfoO">
+            <div class="col s12 m10 l10 DogWalkinginfoO">
                 This is a cool koala Bear that is awesome and stuff and this is gonna be a cool box to put in picture of the silly animals and the walks that theywent on because of reasons and stuff and this is totally not dummy text to fill the gaps so i know what is going on and i have a placeholder to make it look like its real. I hate this font
             </div>
             
@@ -129,34 +123,34 @@
       &nbsp;
 </div>
 	<div class ="Aboutme">
-        <div id = "Selfie" class="row valign-wrapper">
-        	<div class="col s2">
-              <img src="images/test.jpg" alt="" class="circle responsive-img " height="100%">
-            </div>
-            <div class="col s10 aboutinfo">
-                This is a cool koala Bear that is awesome and stuff and this is gonna be a cool box to put in picture of the silly animals and the walks that theywent on because of reasons and stuff and this is totally not dummy text to fill the gaps so i know what is going on and i have a placeholder to make it look like its real. I hate this font
-            </div>
-        </div>      
-    </div>
-<div id ="OfferBookmark">
-      &nbsp;
-</div>
-	<div class="row">
-		<div class="col s12 m6 l12">
-            <div class="card">
-                <div class="card-content cardtext">
-                	<p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                </div>               
+        <div class="row valign-wrapper">
+        	<div class="col s4 m3 l2 offset-l5 Selfie hide-on-small-only">
+              <img src="images/test.jpg" alt="" class=" center circle responsive-img valign-wrapper" height="100%">
             </div>
         </div>
-    
+        <div class="row valign-wrapper">
+            <div class="col s12 m12 l12 aboutinfo">
+                Hi, I’m Didi I am a very friendly and enthusiastic individual who is very passionate about dogs and animal care, I have years of experience working with all kinds of pets, I am a qualified groomer and I have a BscHons in Animal Behaviour. I am a genuine, caring and professional person. I have been taking care of pets as a profession for over 10 years, and have developed a way of understanding, and relating to them. I am passionate about animals of every kind and they seem to love me as much as I love them. I am also fully insured!
+				I always strive to provide the best, most loving service to every pet. Don’t just take my word for it, browse some reviews and testimonials from happy pet owners here.
+
+            </div>
+            
+        </div>      
+    </div>
+
+	<div class="row">
+		   <div id ="OfferBookmark" class="center col s12 m12 l12 offertitle">
+		   	<b><u>What I Offer</u></b>
+		   </div>
+	</div>
+	<div class="row">
         <div class="col s12 m6 l4">
             <div class="card">
                 <div class="card-image">
                     <img src="images/placeholder2.jpg">
                 </div>
                 <div class="card-content">
-                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                <p>I have experience with lots of different breeds of dog, I am very confident walking anything from strong Rottweilers to the smallest of chihuahuas. I can take your dog on short or longer walks depending on what and where you prefer. I would be also willing to check up on your dog to feed it if you are away for any length of time.</p>
                 </div>
                 <div class="card-tabs">
                     <ul class="tabs tabs-fixed-width">
@@ -178,8 +172,9 @@
                     <img src="images/placeholder3.jpg">
                 </div>
                 <div class="card-content">
-                    <p>I am a very simple card. I am good at containing small bits of information.
-                    I am convenient because I require little markup to use effectively.</p>
+                    <p>The best kind of Doggy daycare! Previous adventures have been walks on the beach and hikes in the hills. We take a picnic for us and your pup and fill the day with doggy activities.
+					I ask that you ensure your dog is security chipped, wormed and has been treated for fleas and ticks before they come into my care.
+					</p>
                 </div>
             </div>
         </div>
@@ -189,7 +184,7 @@
                     <img src="images/placeholder4.jpg">
                 </div>
                 <div class="card-content">
-                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                <p>Our pet home visit service provides peace of mind for you whilst you're away knowing that your pet is being looked after in the safety and comfort of their own home.</p>
                 </div>
                 <div class="card-tabs">
                     <ul class="tabs tabs-fixed-width">
@@ -198,14 +193,23 @@
                         <li class="tab cardtabtext"><a href="#SPets">Small Pets</a></li>
                     </ul>
                 </div>
-                <div class="card-content grey lighten-4">
+                <div class="card-content">
                     <div id="Reptile" class = "cardtext">Reptile</div>
-                    <div id="Exotic" class = "cardtext"><a class="modal-trigger" href="#modal1">Exotic Pets</a></div>
-                    <div id="SPets" class = "cardtext">Small Pets</div>
+                    
+                    <div id="Exotic" class = "cardtext"><a class="modal-trigger" href="#modal1">Exotic Pets</a> We also provide rarely offered services including; Fish Tank cleaning and maintenance (including marine set ups), reptile, amphibian care and much more!
+					</div>
+                    
+                    <div id="SPets" class = "cardtext">This service is great for smaller pets e.g. rabbits and guinea pigs or cats who find the upheaval of a trip to the cattery too unsettling. 
+					Home visits include litter tray, feeding, changing water in addition to much enjoyed one to one time with your pets.
+					As part of the service and for added peace of mind, I am happy to turn lights on and off, open and close curtains water plants and put bins out.
+					</div>
+
                 </div>
             </div>
         </div>
     </div>
+    
+   
     <div id="modal1" class="modal ">
         <div class="modal-content">
             <h4>Modal Header</h4>
@@ -215,49 +219,99 @@
             <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">OK</a>
         </div>
     </div>
-    <script>
-        $('.modal').modal({
-            dismissible: true, // Modal can be dismissed by clicking outside of the modal
-            opacity: 0, // Opacity of modal background
-            inDuration: 300, // Transition in duration
-            outDuration: 200, // Transition out duration
-            startingTop: '4%', // Starting top style attribute
-            endingTop: '10%', // Ending top style attribute
-            ready: function(modal, trigger) { // Callback for Modal open. Modal and trigger parameters available.
-        
-            },
-            complete: function() {  } // Callback for Modal close
-            }
-        );
-    </script>
+
+
+      <div id ="ContactBookmark" class="col s12 m12 l12 moreinfo">
+                 If you require a service for your pet that is not listed here please do not hesitate to CONTACT US We offer a flexible service to suit your needs and will do our best to accommodate you. We also offer a consultation visit in your home (without obligation). This consultation is FREE of charge. During this visit, we can discuss the level of care you need and answer any questions you may have.
+
+    </div>
+
+
+	<div class="ContactUs">
+		<div class="container">
+            <div class="row">
+   	  	    	<div class="col l6 s12">
+        	    	<h5 class="white-text">Do I cover your area?</h5>
+                	<div id="map"></div>
+              	</div>
+              	<div class="col l4 offset-l2 s12 contactInfo">
+                	<h5>Contact Info</h5>
+                	<ul>
+                  		<li>Mobile: 07549199439</li>
+                  		<li>Email: tailsfromthetrails@outlook.com</li>
+                  		<li>Facebook:<a href="https://www.facebook.com/Tails-From-The-Trails-553648148344678/"> www.facebook.com/Tails-From-The-Trails/</a></li>
+                  		<li>Tailster:</li>
+                   	</ul>
+               		<form method="post">
+                    	<div class="row contactForm">
+                        	<div class="col-md-4">
+                            	<div class="input-field">
+                                	<input id="Name" type="text" class="validate" required>
+          							<label for="Name">Name</label>
+                            	</div>
+                        	</div>
+                        	<div class="col-md-4">
+                           		<div class="input-field ">
+                                	<input id="email" type="email" class="validate" required>
+          							<label for="email">Email</label>
+                            	</div>
+                        	</div>
+                        	<div class="col-md-4">
+                            	<div class="input-field ">
+                                	<input id="last_name" type="text" class="validate" required>
+          							<label for="last_name">Subject</label>
+                            	</div>
+                        	</div>
+                    		<div class="col-md-8">
+                            	<div class="input-field ">
+                                	<textarea id="textarea1" class="materialize-textarea" required></textarea>
+          							<label for="textarea1">Your Message</label>
+                            	</div>
+                        	</div>
+                        	<div class="col-md-4">
+                            	<div class="form-group">
+                                   		<div class="captcha">
+                                    		<div class="g-recaptcha" data-sitekey="6LdUTE0UAAAAAIth3yY2GBsXd3VLVjXCs5kLrG1B" data-theme="dark"></div>
+                                		</div>
+                            	</div> 
+                            	<button type="submit" class="btn btn-default" name="submit">Submit</button>
+                        	</div>
+                    	</div>
+                	</form>       	
+            	</div>
+        	</div>
+		</div>
+	</div>
+
+
+
+
+
 
     <footer class="page-footer">
-          <div class="container">
+        <div class="container">
             <div class="row">
-              <div class="col l6 s12">
-                <h5 class="white-text">Footer Content</h5>
-                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
-              </div>
-              <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Links</h5>
-                <ul>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
-                </ul>
-              </div>
+   	  	    	<div class="col l6 s12">
+        	    	<h5 >Footer Content</h5>
+                	<p >You can use rows and columns here to organize your footer content.</p>
+              	</div>
+              	<div class="col l4 offset-l2 s12">
+                	<h5 >Links</h5>
+                	<ul>
+                  		<li><a  href="#!">Link 4</a></li>
+                  		<li><a  href="#!">Link 4</a></li>
+                  		<li><a  href="#!">Link 4</a></li>
+                  		<li><a  href="#!">Link 4</a></li>
+                	</ul>
+              	</div>
             </div>
-          </div>
-          <div class="footer-copyright">
-            <div class="container">
-            © 2018 TFTT
-            <a class="grey-text text-lighten-4 right" href="http://materializecss.com/">Created with materialize</a>
-            </div>
-          </div>
-        </footer>
-
-
-</div>
+        </div>
+        <div class="footer-copyright">
+           	<div class="container">
+           		© 2018 TFTT
+           	<a class="grey-text text-lighten-4 right" href="http://materializecss.com/">Created with materialize</a>
+           	</div>
+      	</div>
+    </footer>
 </body>
 </html>
