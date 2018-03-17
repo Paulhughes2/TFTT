@@ -13,7 +13,9 @@ background-color: #FFA7BB;
 }
 body{
 font-family: 'Poiret One', cursive;
+
 }
+
 /* Push Pin */
 html, body {
     height: 100%;
@@ -133,7 +135,7 @@ padding-left: 10%;
 /* Bookmarks */
 #AboutmeBookmark,#DogWalkingBookmark,#OfferBookmark{
 	height: 2%;
-	background-color:#FFBC88;
+	background-color:#FFA7BB;
 }
 /*Dog Walking section*/
 .DogWalkinginfoE{
@@ -182,7 +184,7 @@ margin-bottom: 0;
 .Aboutme{
 	background-color:#393939;
 	padding-top:2%;
-	padding-bottom: 0%;
+	padding-bottom: 2%;
 	font-size: 80px;
 }
 .aboutinfo{
