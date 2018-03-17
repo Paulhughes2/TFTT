@@ -1,7 +1,12 @@
 $(document).ready(function(){
 
-	$(".button-collapse").sideNav();
-	$('#push,secton').pushpin({ top:$('#push').height() });
+	//$(".button-collapse").sideNav();
+	 $('.target').pushpin({
+      top: 0,
+      bottom: 1000,
+      offset: 0
+    });
+
 	$('#C2').carousel({fullWidth: true});  
 	autoplay2();
 
@@ -13,6 +18,8 @@ $(document).ready(function(){
 		}, 500);
 		return false;
 	});
+
+	
 });
 function autoplay2() {
 	$('#C2').carousel('next');
