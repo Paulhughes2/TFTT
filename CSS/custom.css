@@ -21,7 +21,7 @@ nav{
 	background-color: #c9c9c9;
 	position: relative;
 	width:100%;
-	height:10%;
+	height: 80px;
 	background-color:c9c9c9;
     border-bottom: 5px solid;
     border-top: 5px solid;
@@ -37,18 +37,20 @@ nav{
 	height:100%;
 }
 .titletext.hide-on-med-and-up{
-	margin-left:4%;
-	padding-right:0;
-	margin-right:0;
-	margin-top:0%;
+	height:100%;
+	margin-top:20px;
+	margin-left:2%;
+	padding:0;
+	
 	font-family: 'Italianno', cursive;
-	font-size: 38px;
+	font-size: 36px;
 	float:left;
 }
 .titletext.hide-on-small-and-down{
+	margin: 0;
 	margin-left:2%;
 	padding:0;
-	margin:0;
+	margin-top:5px;
 	font-family: 'Italianno', cursive;
 	font-size: 70px;
 	float:left;
@@ -196,14 +198,71 @@ margin-bottom: 0;
     text-align: center;
 
 }
+.introtext{
+
+	font-size: 26px;
+}
+.cardinfo{
+
+	font-size: 22px;
+}
+.breedtitle{
+	font-size:50px;
+}
 .card{
 
 	background-color: #333333;
 	color:#FFFFFF;
 }
-.cardtabtext{
-	background-color: #333333;
-	
+.SMbreeds{
+	background-image: url("../Images/dog1.jpg");
+	background-size: cover;
+	background-position: left top;
+	height:50vh;
+}
+.catimg{
+background-image: url("../Images/cat.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat:no-repeat;
+	height:70vh;
+}
+.adventureimg{
+	background-image: url("../Images/adventurepup.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat:no-repeat;
+	height:70vh;
+}
+.lEXBreeds{
+	background-image: url("../Images/malamute.jpg");
+	background-size: cover;
+	background-position: left top;
+	height:50vh;
+}
+.pupimg{
+	background-image: url("../Images/puppy.jpg");
+	background-size: cover;
+	background-position: left top;
+	height:50vh;
+}
+.exoticimg{
+	background-image: url("../Images/exotic.jpg");
+	background-size: cover;
+	background-position: left top;
+	height:50vh;
+}
+.reptileimg{
+	background-image: url("../Images/reptile.jpg");
+	background-size: cover;
+	background-position: left top;
+	height:50vh;
+}
+.spetimg{
+	background-image: url("../Images/smallpet.jpg");
+	background-size: cover;
+	background-position: left top;
+	height:50vh;
 }
 .cardtext{
 color:#FFFFFF;
@@ -276,4 +335,26 @@ color:#FFFFFF;
 	border-color: #333333;
 	color:#333333;
 }
+.footertext{
+
+	color:#333333;
+	font-weight: bolder;
+	
+	font-size: 18px;
+}
 /* End Footer */
+.go-top {
+	position: fixed;
+	bottom: 2em;
+	right: 2em;
+	text-decoration: none;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.3);
+	font-size: 12px;
+	padding: 1em;
+	display: none;
+}
+
+.go-top:hover {
+	background-color: rgba(0, 0, 0, 0.6);
+}
