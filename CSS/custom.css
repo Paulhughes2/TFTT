@@ -69,7 +69,7 @@ nav{
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
-	height:100%;
+	height:100vmax;
 }
 #floatingtext{
 	position: absolute;
