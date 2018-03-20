@@ -240,6 +240,7 @@ background-image: url("../Images/cat.jpg");
 	background-position: left top;
 	height:50vh;
 }
+
 .pupimg{
 	background-image: url("../Images/puppy.jpg");
 	background-size: cover;
