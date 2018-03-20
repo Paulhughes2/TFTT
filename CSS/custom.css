@@ -70,6 +70,16 @@ nav{
 	background-attachment: fixed;
 	height:100vh;
 }
+@media (max-width: 767px) {
+#BigImage{
+
+    background-attachment: initial;
+	background-image: url("../Images/cracker.jpg");
+	background-size: cover;
+	background-position: center;
+	height:100vh;
+}
+}
 #floatingtext{
 	position: absolute;
 	margin-top: 10%;
