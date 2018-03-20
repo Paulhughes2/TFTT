@@ -235,13 +235,7 @@ background-image: url("../Images/cat.jpg");
 	height:70vh;
 }
 .lEXBreeds{
-<<<<<<< HEAD
-
 	background-image: url("../Images/Bernard.jpg");
-=======
-	
-	background-image: url("../Images/bernard.jpg");
->>>>>>> 2a58f7cec1c66bab0872e38ec1d3c4a1e5faa0b0
 	background-size: cover;
 	background-position: left top;
 	height:50vh;
