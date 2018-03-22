@@ -1,0 +1,377 @@
+@import url(https://fonts.googleapis.com/css?family=Italianno&effect=outline);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+.backing{
+background-color: #FFA7BB;
+}
+body{
+font-family: 'Poiret One', cursive;
+
+}
+
+/* Push Pin */
+html, body, .block {
+    height: 100%;
+    background-color:#c9c9c9;
+}
+
+
+/* Banner + Logo + Title */
+nav{
+	position: absolute;
+	background-color: #c9c9c9;
+	position: relative;
+	width:100%;
+	height: 80px;
+	background-color:c9c9c9;
+    border-bottom: 5px solid;
+    border-top: 5px solid;
+	border-color: #333333;
+	background-color: #c9c9c9;
+}
+#Snav {
+    margin-top: 60px;
+}
+.Logo{
+	margin-left: 2%;
+	float:left;
+	height:100%;
+}
+.titletext.hide-on-med-and-up{
+	height:100%;
+	margin-top:20px;
+	margin-left:2%;
+	padding:0;
+	
+	font-family: 'Italianno', cursive;
+	font-size: 36px;
+	float:left;
+}
+.titletext.hide-on-small-and-down{
+	margin: 0;
+	margin-left:2%;
+	padding:0;
+	margin-top:5px;
+	font-family: 'Italianno', cursive;
+	font-size: 70px;
+	float:left;
+}
+.right.button-collapse{
+	padding-left: 0;
+	margin-left: 0;
+}
+/* End Nav - Banner - Title */
+
+/*  Jumbo picture */
+
+#BigImage{
+	background-image: url("../Images/cracker.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	height:90vh;
+}
+@media (max-width: 767px) {
+#BigImage{
+
+    background-attachment: initial;
+	background-image: url("../Images/cracker.jpg");
+	background-size: cover;
+	background-position: center;
+	height:90vh;
+}
+}
+#floatingtext{
+	position: fixed;
+	padding:0;
+	margin-top:10vh;
+	border-right: 5px solid;
+	border-top: 5px solid;
+	border-bottom: 5px solid;
+	border-color: 333333;
+ 	width: 22%;
+    background-color: #c9c9c9;
+}
+.welcometitle{
+	font-size: 4vw;
+	font-weight: bold;
+	padding-left: 10%;
+}
+.welcometext{
+	font-size: 26px;
+	font-weight: bold;
+	padding-left: 3%;
+}
+/* End Jumbo */
+
+.intro{
+	position: initial;
+	border-radius: 25px; /* Top-left, Top-Right, Bottom-Left, Bottom-Right */
+	background-color:#FFA7BB;
+	font-size: 1.5vmax;
+	font-weight: bold;
+	font-family: 'Poiret One', cursive;
+	margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  	margin-top: 60vh;
+    text-align: center;
+}
+
+/* Bookmarks */
+#AboutmeBookmark,#DogWalkingBookmark{
+	height: 2%;
+	background-color:#FFA7BB;
+}
+/*Dog Walking section*/
+.col.s12.m10.l10.DogWalkinginfoE{
+	border-radius: 25px; /* Top-left, Top-Right, Bottom-Left, Bottom-Right */
+	background-color:#FFBC88;
+	font-size: 2vmax;
+	font-weight: bold;
+	font-family: 'Poiret One', cursive;
+	margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 4vw;
+}
+.col.s12.m10.l10.DogWalkinginfoO{
+	border-radius: 25px;
+	margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 4vw;
+	background-color:#E8C298;
+	font-size: 2vmax;
+	font-weight: bold;
+	font-family: 'Poiret One', cursive;
+}
+.DogImg{
+	background-color:#393939;
+}
+.Dogwalking{
+	background-color:#747474;
+	padding-top:2%;
+	padding-bottom: 0%;
+	font-size: 80px;
+}
+.DogwalkingEnd{
+	background-color:#747474;
+	padding-top:2%;
+	padding-bottom:2%;
+	font-size: 80px;
+}
+.row.valign-wrapper{
+margin-bottom: 0;
+}
+
+/*End Dog Walking*/
+
+/*About Me*/
+.Selfie{
+
+	background-color:#393939;
+}
+.Aboutme{
+	background-color:#747474;
+	padding-top:10%;
+	padding-bottom: 10%;
+	font-size: 80px;
+	height:100%;
+}
+.col.s12.m12.l12.aboutinfo{
+	
+	color:#FFFFFF;
+	font-size: 1.5vmax;
+	font-weight: bold;
+	font-family: 'Poiret One', cursive;
+	margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 4vw;
+}
+
+/* End About */
+
+/* Offers */
+.offertitle{
+	font-size: 2.5vmax;
+	border-radius: 25px; /* Top-left, Top-Right, Bottom-Left, Bottom-Right */
+	background-color:#FFA7BB;
+	font-weight: bold;
+	font-family: 'Poiret One', cursive;
+	margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    margin-bottom: .5%;
+    margin-top: 3vh;
+    text-align: center;
+
+}
+.introtext{
+
+	font-size: 26px;
+}
+.cardinfo{
+
+	font-size: 22px;
+}
+.breedtitle{
+	font-size:50px;
+}
+.card{
+
+	background-color: #333333;
+	color:#FFFFFF;
+}
+.SMbreeds{
+	background-image: url("../Images/dog1.jpg");
+	background-size: cover;
+	background-position: left top;
+	height:50vh;
+}
+.catimg{
+background-image: url("../Images/cat.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat:no-repeat;
+	height:70vh;
+}
+.adventureimg{
+	background-image: url("../Images/adventurepup.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat:no-repeat;
+	height:70vh;
+}
+.lEXBreeds{
+	background-image: url("../Images/bernard.jpg");
+	background-size: cover;
+	background-position: left top;
+	height:50vh;
+}
+
+.pupimg{
+	background-image: url("../Images/puppy.jpg");
+	background-size: cover;
+	background-position: left top;
+	height:50vh;
+}
+.exoticimg{
+	background-image: url("../Images/exotic.jpg");
+	background-size: cover;
+	background-position: left top;
+	height:50vh;
+}
+.reptileimg{
+	background-image: url("../Images/reptile.jpg");
+	background-size: cover;
+	background-position: left top;
+	height:50vh;
+}
+.spetimg{
+	background-image: url("../Images/smallpet.jpg");
+	background-size: cover;
+	background-position: left top;
+	height:50vh;
+}
+.cardtext{
+color:#FFFFFF;
+
+}
+.col.s12.m12.l12.moreinfo{
+	border-radius: 25px; /* Top-left, Top-Right, Bottom-Left, Bottom-Right */
+	background-color:#FFA7BB;
+	font-size: 1vmax;
+	font-weight: bold;
+	font-family: 'Poiret One', cursive;
+	margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    margin-bottom: .5%;
+    text-align: center;
+}
+/* End Offers */
+
+/* Modal */
+
+/* End Modal */
+
+/* Contact Us */
+
+.ContactUs{
+	margin-top: 3vh;
+	background-color: #333333;
+	position: relative;
+	width:100%;
+	background-color:c9c9c9;
+    border-bottom: 5px solid;
+    border-top: 5px solid;
+	border-color: #c9c9c9;
+}
+#map {
+    width: 100%;
+    height:50vh;
+    background-color: grey;
+}
+.contactInfo{
+	color: #FFFFFF;
+	padding-top: 1%;
+	padding-left: 1%;
+	padding-bottom: 1%;
+	font-size:22px;
+}
+.contactForm{
+	
+}
+.input-field label{
+
+	color:#FFFFFF;
+}
+.input-field input[type=text]:focus + label {
+    color:#FFFFFF;
+}
+.input-field input[type=text]:focus {
+     border-bottom: 1px solidcolor:#FFFFFF;
+     box-shadow: 0 1px 0 0 color:#FFFFFF;
+   }
+/* End Contact */
+
+/* Footer*/
+.page-footer{
+	background-color: #c9c9c9;
+	position: relative;
+	width:100%;
+	height: 80px;
+
+	background-color:c9c9c9;
+    border-top: 5px solid;
+	border-color: #333333;
+	color:#333333;
+}
+.footertext{
+
+	color:#333333;
+	font-weight: bolder;
+	
+	font-size: 18px;
+}
+/* End Footer */
+.go-top {
+	position: fixed;
+	bottom: 2em;
+	right: 2em;
+	text-decoration: none;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.3);
+	font-size: 12px;
+	padding: 1em;
+	display: none;
+}
+
+.go-top:hover {
+	background-color: rgba(0, 0, 0, 0.6);
+}
