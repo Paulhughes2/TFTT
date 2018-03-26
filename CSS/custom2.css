@@ -296,6 +296,25 @@ color:#FFFFFF;
     margin-bottom: .5%;
     text-align: center;
 }
+#modal1{
+width:90vw;
+	
+}
+.modal .modal-content {
+    padding-bottom: 0;
+}
+.modal{
+width:30vw;
+max-height:100vh;
+
+}
+@media (max-width: 767px) {
+.modal{
+width:90vw;
+}
+}
+
+
 /* End Offers */
 
 /* Modal */

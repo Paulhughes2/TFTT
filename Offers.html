@@ -60,7 +60,7 @@
             </div>
         </div>
         <div class="col s12 m6 l4">
-            <a class="modal-trigger" href="#modal2"><div class="card">
+            <!--<a class="modal-trigger" href="#modal2">--><div class="card">
                 <div class="pupimg" alt ="Image of a puppy for puppy walks">
                     &nbsp;
                 </div>
@@ -69,7 +69,7 @@
                     <h5><b>£8 per hour</b></h5>
                     <p class ="cardinfo">Getting a new puppy is a wonderful experience and we are puppy care experts. A tired pup is a happy and well-behaved pup! </p>
                 </div>
-            </div></a>
+            </div><!--</a>-->
         </div>
         <div class="col s12 m6 l4">
             <a class="modal-trigger" href="#modal3"><div class="card" alt ="Image of a small dog for small to Medium breed walks">
@@ -148,9 +148,9 @@
                 </div>
                 <div class="card-content">
                     <h2 class= "breedtitle">Adventure Days</h2>
-                       <h5><b>Starting at £15+</b></h5>
-                        <p class ="cardinfo">The best kind of Doggy daycare! Previous adventures have been walks on the beach and hikes in the hills. 
-                        </p>
+                    <h5><b>Starting at £15+</b></h5>
+                    <p class ="cardinfo">The best kind of Doggy daycare! Previous adventures have been walks on the beach and hikes in the hills. 
+                    </p>
                 </div>
             </div></a>
         </div>
@@ -170,13 +170,26 @@
     </div> 
     <div id="modal1" class="modal ">
         <div class="modal-content">
+            <div class ="row">
             <h4>Offers</h4>
-            <p>This is still being updated but feel free to contact us about our offers</p>
-        </div>
-        <div class="modal-footer">
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">OK</a>
+                <div class ="row">
+                    <div class = "col S3 m2 l1">
+                        &nbsp;
+                    </div>
+                    <div class = "col S3 m4 l5">
+                        <img src ="Images/Smallmed.jpg" width="100%">
+                    </div>
+                    <div class = "col S3 m4 l5">
+                        <img src ="Images/Largebreed.jpg" width="100%">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">OK</a>
+            </div>
         </div>
     </div>
+<!--
      <div id="modal2" class="modal ">
         <div class="modal-content">
             <h4>Puppies</h4>
@@ -186,10 +199,15 @@
             <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">OK</a>
         </div>
     </div>
+-->
     <div id="modal3" class="modal ">
         <div class="modal-content">
             <h4>Small - Medium Breeds</h4>
-            <p>This is still being updated but feel free to contact us about our offers</p>
+            <div class ="row">
+                <div class = "col S12 m12 l12">
+                    <img src ="Images/Smallmed.jpg" width="100%">
+                </div>
+            </div>
         </div>
         <div class="modal-footer">
             <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">OK</a>
@@ -198,7 +216,11 @@
     <div id="modal4" class="modal ">
         <div class="modal-content">
             <h4>Large - Extra Large Breeds</h4>
-            <p>This is still being updated but feel free to contact us about our offers</p>
+            <div class ="row">
+                <div class = "col S12 m12 l12">
+                    <img src ="Images/Largebreed.jpg" width="100%">
+                </div>
+            </div>
         </div>
         <div class="modal-footer">
             <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">OK</a>
@@ -281,11 +303,6 @@
 
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDHS6phPa41pkyovKkilZtwPH22PyimUQc&callback=initMap"
   type="text/javascript"></script>
-<!--
- Google capcha 
-
-<script src='https://www.google.com/recaptcha/api.js'></script>
--->
 <script src="JS/JScript.js"></script>
 </body>
 </html>
