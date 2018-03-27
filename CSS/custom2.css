@@ -216,8 +216,12 @@ margin-bottom: 0;
 
 	font-size: 26px;
 }
+.cardinfo1{
+	color:#FFFFFF;
+	font-size: 22px;
+}
 .cardinfo{
-	color:black;
+	color:#000000;
 	font-weight: bold;
 	font-size: 22px;
 }
@@ -225,7 +229,6 @@ margin-bottom: 0;
 	font-size:50px;
 }
 .card{
-
 	background-color: #333333;
 	color:#FFFFFF;
 }
@@ -249,6 +252,11 @@ margin-bottom: 0;
 }
 .bubbleinfo{
 	max-width:90vw;
+	background-color: #333333;
+	color:#FFFFFF;
+	border-radius: 20px;
+	padding-left: 2%;
+	margin:0;
 }
 @media (max-width: 767px) {
 .bubbleinfo{
