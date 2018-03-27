@@ -198,8 +198,8 @@ margin-bottom: 0;
 
 /* Offers */
 .offertitle{
-	font-size: 2.5vmax;
-	border-radius: 25px; /* Top-left, Top-Right, Bottom-Left, Bottom-Right */
+	font-size: 3.5vmax;
+	border-radius: 50px; /* Top-left, Top-Right, Bottom-Left, Bottom-Right */
 	background-color:#FFA7BB;
 	font-weight: bold;
 	font-family: 'Poiret One', cursive;
@@ -217,7 +217,8 @@ margin-bottom: 0;
 	font-size: 26px;
 }
 .cardinfo{
-
+	color:black;
+	font-weight: bold;
 	font-size: 22px;
 }
 .breedtitle{
@@ -228,6 +229,58 @@ margin-bottom: 0;
 	background-color: #333333;
 	color:#FFFFFF;
 }
+.img-responsive {
+    width: 100%;
+}
+.bubbleheight{
+	max-height: 50vh;
+	max-width: 50vw;
+	height: 50vh;
+    text-align: center;
+    
+}
+@media (max-width: 767px) {
+.bubbleheight{
+	max-height: 40vh;
+	max-width: 90vw;
+	height: 40vh;
+    text-align: center;  
+}
+}
+.bubbleinfo{
+	max-width:90vw;
+}
+@media (max-width: 767px) {
+.bubbleinfo{
+	max-width:90vw;
+}
+}
+.large{
+max-height :40vh;
+
+
+}
+@media (max-width: 767px) {
+.large{
+
+max-height :30vh;
+
+}
+}  
+.top{
+
+margin-top :7vh;
+
+}
+@media (max-width: 767px) {
+.top{
+
+margin-top :7vh;
+
+}
+} 
+
+/*
 .SMbreeds{
 	background-image: url("../Images/dog1.jpeg");
 	background-size: cover;
@@ -278,7 +331,7 @@ background-image: url("../Images/cat.jpg");
 	background-size: cover;
 	background-position: left top;
 	height:50vh;
-}
+}*/
 .cardtext{
 color:#FFFFFF;
 
@@ -304,15 +357,11 @@ width:90vw;
     padding-bottom: 0;
 }
 .modal{
-width:30vw;
-max-height:100vh;
+width:90vw;
+max-height:90vh;
 
 }
-@media (max-width: 767px) {
-.modal{
-width:90vw;
-}
-}
+
 
 
 /* End Offers */
