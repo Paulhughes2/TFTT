@@ -178,22 +178,36 @@ margin-bottom: 0;
 }
 .Aboutme{
 	background-color:#747474;
-	padding-top:10%;
+	padding-top:5%;
 	padding-bottom: 10%;
-	font-size: 80px;
+	
 	height:100%;
+}
+
+@media (max-width: 767px) {
+
 }
 .col.s12.m12.l12.aboutinfo{
 	
 	color:#FFFFFF;
-	font-size: 1.5vmax;
+	font-size: 1.2vmax;
 	font-weight: bold;
 	font-family: 'Poiret One', cursive;
 	margin-left: 2%;
-    margin-right: 2%;
-    padding-left: 4vw;
+    
+   
 }
-
+@media (max-width: 767px) {
+.col.s12.m12.l12.aboutinfo{
+	
+	color:#FFFFFF;
+	font-size: 2vmax;
+	font-weight: bold;
+	font-family: 'Poiret One', cursive;
+	margin-left: 2%;
+   
+}
+}
 /* End About */
 
 /* Offers */
@@ -266,8 +280,11 @@ margin-bottom: 0;
 }
 .large{
 max-height :40vh;
-
-
+}
+@media (max-width: 1025px) {
+.shadow{
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 }
 @media (max-width: 767px) {
 .large{
