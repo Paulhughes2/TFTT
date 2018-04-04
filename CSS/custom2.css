@@ -67,7 +67,7 @@ nav{
 /*  Jumbo picture */
 
 #BigImage{
-	background-image: url("../Images/cracker.jpg");
+	background-image: url("../Images/cover.jpg");
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
